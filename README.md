@@ -1,7 +1,8 @@
 # odin-recipes
+
 This is a Repository that contains the Recipe Website that is a part of The Odin Project curriculum
 
-# 🍽️ Food Recipes Website
+## 🍽️ Food Recipes Website
 
 A simple recipe website built using **HTML** as a practice project to improve my web development skills.
 
@@ -19,12 +20,14 @@ This project contains a homepage and multiple recipe pages. It is part of my jou
 ## 🛠️ Built With
 
 * HTML5
+* CSS3
 
 ## 📂 Project Structure
 
-```
+```text
 .
 ├── index.html
+├── style.css
 ├── recipes/
 │   ├── butter_chicken.html
 │   ├── chickpea_curry.html
@@ -36,9 +39,9 @@ This project contains a homepage and multiple recipe pages. It is part of my jou
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/aditya-rai08/odin-recipes.git
-```
+    ```bash
+    git clone https://github.com/aditya-rai08/odin-recipes.git
+    ```
 
 2. Open the project folder.
 
