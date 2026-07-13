@@ -37,7 +37,7 @@ This project contains a homepage and multiple recipe pages. It is part of my jou
 1. Clone the repository:
 
 ```bash
-git clone git@github.com:aditya-rai08/odin-recipes.git
+git clone https://github.com/aditya-rai08/odin-recipes.git
 ```
 
 2. Open the project folder.

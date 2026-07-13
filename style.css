@@ -1,0 +1,39 @@
+*{                          /*universal selector*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{                                                     /*type selector */
+    text-align: center;
+    color:black
+}
+
+.recipe{                       /*class selector */
+    font-size: 20px;
+    font-weight:500
+}
+
+.link,                          /*group selector */
+.recipe{
+    background-color: rgb(255, 255, 198) ;
+}
+
+.recipe.direct{                                 /*chaining*/
+    background-color:aquamarine;
+}
+
+#list{                                /*id selector */
+    background-color: bisque;
+}
+
+.recipe .direct{                         /*decedant combinator*/
+    background-color: azure;
+}
+
+img{
+    height: 200px;
+    width:auto;
+}
+
+.recipe.nonveg{
+    color:red;
+}
