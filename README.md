@@ -61,7 +61,6 @@ While building this project, I practiced:
 
 ## 🎯 Future Improvements
 
-* Add CSS styling
 * Make the website responsive
 * Improve accessibility
 * Add JavaScript for interactivity

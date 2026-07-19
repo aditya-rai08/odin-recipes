@@ -1,39 +1,68 @@
 *{                          /*universal selector*/
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    display: box;
 }
 
-h1{                                                     /*type selector */
-    text-align: center;
-    color:black
+body{
+    padding:40px;
+    background-color: rgb(255, 255, 255);
 }
 
-.recipe{                       /*class selector */
-    font-size: 20px;
-    font-weight:500
+h1{
+    color:rgb(255, 29, 29);
+    font-size: 80px;
+    margin-top:10px ;
+    margin-bottom: 10px;
 }
 
-.link,                          /*group selector */
+p{
+    font-size:20px;
+}
+
 .recipe{
-    background-color: rgb(255, 255, 198) ;
+    font-size: 20px;
+    font-weight:500;
+    height:auto ;
+    width:1200px;
+    background-color: rgb(255, 254, 202);
+    padding: 7px;
+    border:1px solid black;
+    margin: 10px;
 }
 
-.recipe.direct{                                 /*chaining*/
-    background-color:aquamarine;
-}
-
-#list{                                /*id selector */
-    background-color: bisque;
-}
-
-.recipe .direct{                         /*decedant combinator*/
-    background-color: azure;
+.nonveg{
+    color:red;
 }
 
 img{
-    height: 200px;
-    width:auto;
+    border: 3px solid black ;
 }
 
-.recipe.nonveg{
-    color:red;
+.ing li{
+    font-size: 20px;
+    font-weight:500;
+    height:auto ;
+    width:600px;
+    background-color: rgb(255, 204, 197);
+    padding: 7px;
+    border:1px solid black;
+    margin: 10px;
 }
+
+.dir li{
+    font-size: 20px;
+    font-weight:500;
+    height:auto ;
+    width:1200px;
+    background-color: rgb(255, 204, 197);
+    padding: 7px;
+    border:1px solid black;
+    margin: 10px;
+}
+
+.home{
+    border:1px solid black;
+    padding: 2px;
+}
+
