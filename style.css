@@ -1,19 +1,23 @@
 *{                          /*universal selector*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
-    display: box;
 }
 
 body{
-    padding:40px;
+    padding:0px;
+    margin:0px;
     background-color: rgb(255, 255, 255);
 }
 
-h1{
-    color:rgb(255, 29, 29);
-    font-size: 80px;
-    margin-top:10px ;
-    margin-bottom: 10px;
+.logo{
+    color:rgb(255, 255, 255);
+    width:200px;
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 30px;
+    margin:0px;
 }
 
 p{
@@ -23,12 +27,13 @@ p{
 .recipe{
     font-size: 20px;
     font-weight:500;
-    height:auto ;
-    width:1200px;
+    min-height:150px;
+    width:300px;
     background-color: rgb(255, 254, 202);
     padding: 7px;
-    border:1px solid black;
-    margin: 10px;
+     border:1px solid black;
+    /* margin: 10px; */
+    list-style:none;
 }
 
 .nonveg{
@@ -66,3 +71,40 @@ img{
     padding: 2px;
 }
 
+#nav{
+    display:flex;
+    justify-content:flex-start;          /*horizontal alignment in the flex container on the basis of main axis*/
+    align-items:flex-start;          /*vertical   alignment in the flex container along the cross axis */
+    gap:15px;
+    padding:0px;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:space-around;
+}
+
+.taskbar{
+    display:flex;
+    background-color: rgb(255, 31, 31);
+    gap:750px;
+
+}
+
+.task{
+    display:flex;
+    width:400px;
+    height:80px;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+    align-content:space-around;
+}
+
+.task a{
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.main{
+    padding: 30px;
+}
