@@ -57,11 +57,11 @@ While building this project, I practiced:
 * Linking pages using relative paths
 * Organizing a small project structure
 * Writing semantic HTML
+* Implementing CSS and responsive design through box and flexbox model
 * Using Git and GitHub for version control
 
 ## 🎯 Future Improvements
 
-* Make the website responsive
 * Improve accessibility
 * Add JavaScript for interactivity
 

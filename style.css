@@ -1,12 +1,12 @@
 *{                          /*universal selector*/
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
     padding:0px;
     margin:0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 242, 242);
 }
 
 .logo{
@@ -18,6 +18,8 @@ body{
     align-items:center;
     font-size: 30px;
     margin:0px;
+    margin-right:auto;
+
 }
 
 p{
@@ -25,16 +27,32 @@ p{
 }
 
 .recipe{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    align-content:center;
+    gap:5px;
+    flex:1 1 auto;
+    max-width: 350px;
     font-size: 20px;
     font-weight:500;
-    min-height:150px;
+    min-height:200px;
     width:300px;
-    background-color: rgb(255, 254, 202);
+    background-color: rgb(250, 250, 219);
     padding: 7px;
-     border:1px solid black;
+    border:1px solid black;
     /* margin: 10px; */
     list-style:none;
 }
+
+.recipe img{
+    height: 200px;
+    width: 300px;
+    border-radius: 100px ;
+    flex-grow:1;
+}
+
 
 .nonveg{
     color:red;
@@ -42,6 +60,22 @@ p{
 
 img{
     border: 3px solid black ;
+}
+
+#food{
+    width:1400px;
+    height:300px;
+    border:1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXJ894TxL_YaNLLtRYKiu9MbvcSjF558aWIFJbL5W4ng&s=10);
+    background-position:center;
+}
+
+#food h2{
+    font-size:200px;
+    color: white;
 }
 
 .ing li{
@@ -66,11 +100,6 @@ img{
     margin: 10px;
 }
 
-.home{
-    border:1px solid black;
-    padding: 2px;
-}
-
 #nav{
     display:flex;
     justify-content:flex-start;          /*horizontal alignment in the flex container on the basis of main axis*/
@@ -85,13 +114,11 @@ img{
 .taskbar{
     display:flex;
     background-color: rgb(255, 31, 31);
-    gap:750px;
-
 }
 
 .task{
     display:flex;
-    width:400px;
+    width:500px;
     height:80px;
     gap:20px;
     justify-content:center;
@@ -103,6 +130,15 @@ img{
     color:white;
     font-size: 20px;
     text-decoration:none;
+}
+
+button{
+    color: rgb(255, 0, 0);
+    border-radius: 50px;
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
 }
 
 .main{
