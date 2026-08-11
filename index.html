@@ -4,47 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Odin Recipes</title>
+    <title>CookIt</title>
 </head>
 <body>
-    <header class="taskbar">
-        <h1 class="logo">Odin Recipes</h1>
-        <input class="search" type="text" placeholder="search" >
-        <div class="task">
-            <a href="index.html" target="_blank">Home</a>
-            <a href="index.html" target="_blank">AI recipe Creator</a>
-            <!-- <a class="prof" href="index.html" target="_blank">Sign up</a>
-            <a class="prof" href="index.html" target="_blank">Log in</a> -->
-            <button type="button"><a  href="signup.html" style="color: red;">Sign Up</a></button>
-            <button type="button"><a  href="" style="color: red;">Log in</a></button>
+    <div id="intro">
+        <header class="taskbar">
+            <h1 class="logo">CookIt</h1>
+            <div id="links"  class="task">
+                <a href="recipes.html" target="_blank">Recipes</a>
+                <a href="index.html" target="_blank">Quick AI recipe </a>
+                <!-- <a class="prof" href="index.html" target="_blank">Sign up</a>
+                <a class="prof" href="index.html" target="_blank">Log in</a> -->
+                <button type="button"><a  href="signup.html" style="color: red;">Sign Up</a></button>
+                <button type="button"><a  href="signup.html" style="color: red;">Log in</a></button>
+            </div>
+        </header>
+        <div id="subintro">
+            <div id="content1">
+                <div id="main1">
+                    <h2>Your Online CookBook</h2>
+                    <p>Discover delicious recipes for every occasion. Cook with ease and confidence.</p>
+                    <button id="signbutt"><a  href="signup.html" style="color: red;">Sign Up</a></button>
+                </div>
+                <img src="https://media.istockphoto.com/id/1191080960/photo/traditional-turkish-breakfast-and-people-taking-various-food-wide-composition.jpg?s=612x612&w=0&k=20&c=PP5ejMisEwzcLWrNmJ8iPPm_u-4P6rOWHEDpBPL2n7Q=" style="height: 250px;">
+            </div>
         </div>
-    </header>
-    <div class="main">
-    <div id="food">
-        <h2>Odin Recipes</h2>
     </div>
-    <p>
-        This webpage is dedicated for recipes in Indian cuisine . You can access the following recipes by clicking on it:
-    </p>
-    <ul id="nav">
-        <li class="recipe">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXzTHek2u6ZAp1o-KJNl1afTD4LUpjmbT2IS8CNhYvEA&s=10" alt="Butter Chicken">
-            <a class="nonveg" href="recipes/butter_chicken.html" target="_blank" rel="noreferrer">Butter Chicken</a> I’m putting my spin on it to save time by using frozen prepared garlic and ginger pods from the supermarket.
-        </li>
-        <li class="recipe">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQhse28GakQ8vvZrj8grdRj_ENCsiYhciEx-MB3QRNGQ&s=10" alt="Fish Curry">
-            <a class="nonveg" href="recipes/fish_curry.html" target="_blank" rel="noreferrer">Fish Curry</a> An easy-to-follow Fish Curry recipe made with an onion-tomato masala and simple spices. 
-        </li>
-        <li class="recipe">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUrcNlQZVcLPS6VUKcghz8CdeEuqPtronYU1AEIcR4A&s=10" alt="Chickpea Curry">
-            <a style="color:rgb(80, 175, 3)" class="veg" href="recipes/chickpea_curry.html" target="_blank" rel="noreferrer">Chickpea Curry</a>This Easy Chickpea curry is the perfect weeknight dinner: it's quick and easy to make.
-        </li>
-        <li class="recipe">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6k_fxS1bR-0aCiPwIGy0pDVl32Sx5jC6Ij-2aheRzlA&s=10" alt="Matar Paneer">
-            <a style="color:rgb(80, 175, 3)" class="veg" href="recipes/chickpea_curry.html" target="_blank" rel="noreferrer">Matar Paneer</a>This homestyle Punjabi curry is made with peas (matar or mutter in Hindi) and fresh Indian paneer .
-        </li>
 
-    </ul>
+    <div id="feat">
+        <h2>Cooking Should not be Limited to just one cuisine. Try These</h2>
+        <div id="featcard">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmrFctPtSg2GqKAdJ4KIlCoM4b5iUYtYqm2NV7_gaqHQ&s=10" alt="ai recipe" >
+                <h3>Japenese</h3>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqzMp6M4iasoC_jNaGI1RfHJ6ZySSvdJnqLvfwo8gK-Q&s=10" alt="ai recipe" >
+                <h3>Indian</h3>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlbjljgiLA1ulqLbVCO3suPP5GoXMsJ_F4UnqoAcfsA&s=10" alt="ai recipe" >
+                <h3>Thai</h3>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDRA95HZN18DqAvpLg6YBCbwPqzgtpspGn1R7yoWOOg&s=10" alt="ai recipe" >
+                <h3>Middle Eastern</h3>
+            </div>
+        </div>
     </div>
+
+    <div id="quote">
+        <p>"Cooking is multisensory. It's made for the eyes, the mouth, the nose, the ear, and the soul. No other art is as complex."</p>
+        <h5 style="margin: 10px; font-size: 20px;">-Pierre Gagnaire</h5>
+    </div>
+
+    <div id="action">
+        <div id="call">
+            <div id="signplease">
+                <div id="written">
+                    <h1>Its Cooking Time !</h1>
+                    <p>sign up for more fun recipes that you can cook in the comfort of your home .</p>
+                </div>
+                <button><a  href="signup.html" style="color: rgb(255, 255, 255);">Sign Up</a></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact:<br>8178307037</p>
+        <p>Mail: <br>adityarai.official29@gamil.com</p>
+        <a href="www.linkedin.com/in/aditya-rai-sharma">LinkedIn</a>        
+    </footer>
 </body>
 </html>

@@ -53,7 +53,7 @@ No installation or dependencies are required.
 
 While building this project, I practiced:
 
-* Creating multiple HTML pages
+* Creating multiple HTML pages with meaningfull content
 * Linking pages using relative paths
 * Organizing a small project structure
 * Writing semantic HTML
